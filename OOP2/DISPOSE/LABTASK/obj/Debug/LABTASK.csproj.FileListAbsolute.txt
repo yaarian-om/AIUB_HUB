@@ -1,0 +1,11 @@
+C:\Users\student\Desktop\DISPOSE\LABTASK\bin\Debug\LABTASK.exe.config
+C:\Users\student\Desktop\DISPOSE\LABTASK\bin\Debug\LABTASK.exe
+C:\Users\student\Desktop\DISPOSE\LABTASK\bin\Debug\LABTASK.pdb
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.Form1.resources
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.Properties.Resources.resources
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.exe
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.pdb
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.Signup.resources
+C:\Users\student\Desktop\DISPOSE\LABTASK\obj\Debug\LABTASK.Home.resources
