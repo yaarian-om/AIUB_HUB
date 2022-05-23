@@ -1,4 +1,0 @@
-Substring position in a string:
-https://string-functions.com/countsubstrings.aspx
-Longest Common Substring
-http://www.byronknoll.com/lcs.html
