@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 
-int x1, y1, x2, y2;
+int x1 = 90, y1 = 90, x2 = 200, y2 = 300;
 
 void myInit() {
 	glClear(GL_COLOR_BUFFER_BIT);
@@ -52,8 +52,8 @@ void draw_line(int x1, int x2, int y1, int y2) {
 			}
 			else
 				e += inc2;
-			x += incx;
-			draw_pixel(x, y);
+                x += incx;
+                draw_pixel(x, y);
 		}
 
 	}
@@ -82,6 +82,10 @@ void draw_line(int x1, int x2, int y1, int y2) {
 void myDisplay()
 {
 	draw_line(x1, x2, y1, y2);
+	draw_line(90,300,90,90); //p1 = 30,q1 = 30, p2 = 300 q2 = 30
+	draw_line(90,300,90,90); //p1 = 30,q1 = 30, p2 = 300 q2 = 30
+	draw_line(200,300,300,90); //p1 = 30,q1 = 30, p2 = 300 q2 = 30
+
 	glFlush();
 }
 
@@ -90,13 +94,13 @@ void myDisplay()
 int main(int argc, char **argv)
 {
 
-	printf( "Enter (x1, y1, x2, y2)\n");
-	scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
+	//printf( "Enter (x1, y1, x2, y2)\n");
+	//scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
 
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB);
-	glutInitWindowSize(500, 500);
-	glutInitWindowPosition(0, 0);
+	glutInitWindowSize(1366, 740); // Screen Size
+	glutInitWindowPosition(0, 0); // Starting Point
 	glutCreateWindow("Bresenham's Line Drawing");
 	myInit();
 	glutDisplayFunc(myDisplay);
