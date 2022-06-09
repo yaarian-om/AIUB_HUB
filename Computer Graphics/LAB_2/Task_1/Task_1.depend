@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1446667738 source:c:\users\student\desktop\new folder\task_1\main.c
+	<windows.h>
+	<gl/gl.h>
+
+1653969930 source:c:\users\student\desktop\dispose\task_1\main.c
+	<windows.h>
+	<GL/glut.h>
+	<stdio.h>
+
